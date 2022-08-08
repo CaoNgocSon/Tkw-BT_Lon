@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <!-- Icon -->
+    <link rel="short icon" href="images/logo-st-riviu.png">
+
+    <!-- Main StyleSheet CSS -->
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <!-- Wow Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+ 
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    s
+  </head>
+  <body>
+    <div class="main">
+        <header class="header fixed-top">
+            <div class="grid wide">
+                <!-- navbar-on-pc -->
+                <nav class="navbar ">
+                    <label for="mobile-search-checkbox" class="navbar__mobile-search hide-on-pc hide-on-tablet">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                     </label>
+
+                    <div class="navbar__logo l-1 m-2 c-3 ">
+                        <a href="#">
+                            <img src="images/logo-st-riviu.png" alt="Riviu-logo" />
+                        </a>
+                    </div>
+                    
+                    <div class="navbar__list l-5 hide-on-mobile-tablet">
+                        <ul>
+                            <li><a href="index.html">Trang Chủ</a></li>
+                            <li><a href="Introduce.html">Giới Thiệu</a></li>
+                            <li><a class="active" href="blog.html">Blog</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li class="navbar__sub-menu">
+                                <a href="javascript:;">Khác
+                                    <i class="fa fa-caret-down"></i>
+                                </a>
+                                <ul class="navbar__sub-menu__content">
+                                    <li><a href="#">Ảnh</a></li>
+                                    <li><a href="#">Video</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                     <input type="checkbox" hidden id="mobile-search-checkbox" class="navbar__search-checkbox">  
+                    <div class="navbar__search d-flex l-4">               
+                        <div class="navbar__search-input-wrap">
+                            <span class="navbar__search-btn-icon fa fa-search"></span>
+                            <input type="text" class="navbar__search-input" placeholder="Tìm kiếm Riviu, địa điểm... "> 
+                            <div class="navbar__cart">
+                                <!-- <img src="images/about-us-img01.png" alt="" class="navbar__cart--no-cart-img"> -->
+                                <!-- <span class="navbar__cart-list-no-cart-msg">Chưa có lịch sử tìm kiếm</span> -->
+                        
+                                <h4 class="navbar__cart-heading">Đã xem gần đây</h4>
+                                <ul class="navbar__cart-list-item">
+                                    <!-- Cart-item -->
+                                    <li class="navbar__cart-item">
+                                        <img src="images/about-us-img01.png" alt="" class="navbar__car-img">
+                                        <div class="navbar__cart-item-info">
+                                            <div class="navbar__cart-item-head">
+                                                <h5 class="navbar__cart-item-name">Hotsun Rice & Chicken - Vạn Hạnh Mail</h5>
+                                            </div>
+                                            <div class="navbar__cart-item-body">
+                                                <span class="navbar__cart-item-address">
+                                                    805 Hậu Giang, P11, Quận 6, TP. HCM
+                                                </span>
+                                                <span class="navbar__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="navbar__cart-item">
+                                        <img src="images/about-us-img01.png" alt="" class="navbar__car-img">
+                                        <div class="navbar__cart-item-info">
+                                            <div class="navbar__cart-item-head">
+                                                <h5 class="navbar__cart-item-name">Hotsun Rice & Chicken - Vạn Hạnh Mail</h5>
+                                            </div>
+                                            <div class="navbar__cart-item-body">
+                                                <span class="navbar__cart-item-address">
+                                                    805 Hậu Giang, P11, Quận 6, TP. HCM
+                                                </span>
+                                                <span class="navbar__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="navbar__cart-item">
+                                        <img src="images/about-us-img01.png" alt="" class="navbar__car-img">
+                                        <div class="navbar__cart-item-info">
+                                            <div class="navbar__cart-item-head">
+                                                <h5 class="navbar__cart-item-name">Hotsun Rice & Chicken - Vạn Hạnh Mail</h5>
+                                            </div>
+                                            <div class="navbar__cart-item-body">
+                                                <span class="navbar__cart-item-address">
+                                                    805 Hậu Giang, P11, Quận 6, TP. HCM
+                                                </span>
+                                                <span class="navbar__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul> 
+                                <a href="#" class="navbar__cart-view-cart btn">Xem tất cả</a>
+                            </div>
+                        </div>
+                        <div class="navbar__search-select">
+                            <button class="navbar__search-button js-province">Hồ Chí Minh
+                            </button>
+                        </div> 
+                    </div>
+
+                    <div class="navbar__btn-group l-2-4 hide-on-mobile-tablet">
+                            <a href="" class="btn">Đăng nhập</a>
+                            <a href="" class="btn">Đăng kí</a>
+                    </div>
+
+                    
+                    <div class="navbar__bars-btn hide-on-pc ">
+                        <label for="navbar-btn--input" class="navbar-btn">
+                            <i class="fas fa-bars fa-2x"></i>
+                        </label>
+                        <input type="checkbox" hidden name="btn" id="navbar-btn--input" class="navbar-input">
+                        <label for="navbar-btn--input" class="navbar__overlay"></label> 
+                        
+                        <nav class="navbar__mobile">
+                            <label for="navbar-btn--input" class="navbar__mobile-close">
+                                <i class="fas fa-times fa-2x"></i>
+                            </label> 
+                            <ul>
+                                <li><a href="index.html">Trang Chủ</a></li>
+                                <li><a href="Introduce.html">Giới Thiệu</a></li>
+                                <li><a class="active" href="#">Blog</a></li>
+                                <li><a href="#">Liên hệ</a></li>
+                                <li><a href="#">Ảnh</a></li>
+                                <li><a href="#">Video</a></li>
+                                <li><a href="#">Cài đặt</a></li>
+                                <li><a href="#">Đăng nhập</a></li>
+                                <li><a href="#">Đăng kí</a></li>
+                            </ul>
+                        </nav>          
+                    </div>
+                </nav>
+            </div> 
+        </header>   
+
+        <section>
+            <div class="container-bg container-home-page">
+                <div class="grid wide content">
+                    <h1 class="title wow animate__fadeInUp">Welcome to ST Riviu</h1>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4">
+                        <div class="content-inner">
+                            <div class="sub-tittle">Nói chuyện với nhóm chúng tôi</div>
+                            <div class="tittle">
+                                <h2>Bất Kỳ Câu Hỏi Nào? Vui Lòng Liên Hệ</h2>
+                            </div>
+                            <div class="tittle-decs">
+                                <img src="https://pacificcross.com.vn/wp-content/uploads/2020/11/b2ap3_large_shutterstock_271251743.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+      
+    </div>
+      <!-- Box-province -->
+      <div class="modal-popup js-modal">
+        <!-- <div class="modal-overlay"> -->
+            <div class="modal-content js-modal-container" style="width: 480px">
+                <div class="modal-header">
+                    <p style="text-align: center; font-size: 1.4rem;">Chọn khu vực</p>
+                    <p class="btn-right">
+                        <i class="fa-solid fa-xmark js-modal-close"></i>
+                    </p>
+                </div>
+                <div class="modal-info" style="height: 400px">
+                    <div class="province-content">
+                        <div class="search-province">
+                            <span class="search-btn-icon fa fa-search "></span>
+                            <input type="text"  placeholder="Nhập khu vực cần tìm" class="search-input"/>
+                        </div>
+                        <div class="list-province mt-2">
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                                    Hồ Chí Minh
+                                </div>
+                            </div>
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                                    Hà Nội
+                                </div>
+                            </div>
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                                Vũng Tàu
+                                </div>
+                            </div>
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                                Nha Trang
+                                </div>
+                            </div>
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                                Đà Lạt
+                                </div>
+                            </div>
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                                Đồng Tháp
+                                </div>
+                            </div>
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                               Biên Hòa
+                                </div>
+                            </div>
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                               Phú Quốc
+                                </div>
+                            </div>
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                              Lâm Đồng
+                                </div>
+                            </div>
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                               Ninh Thuận
+                                </div>
+                            </div>
+                            <div class="province-item">
+                                <div class="title-item-hover">
+                                    Hải Phòng
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    <!-- End-province -->
+    <script src="js/main.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    
+  </body>
+</html>
+
+
