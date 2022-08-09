@@ -1118,7 +1118,6 @@ a.blog-item__read-more:hover {
 .gl-wrapper {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
