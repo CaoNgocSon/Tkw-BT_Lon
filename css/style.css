@@ -47,10 +47,10 @@
 
 .navbar__list a {
     display: block;
-    padding: 12px 16px;
+    padding: 12px;
     font-weight: 550;
     border-radius: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--primary-color);
     /* transition: all 0.3s; */
 }
@@ -95,6 +95,7 @@ a.active {
   width: 35%;
   border-radius: 10px;
   margin-right: 20px;
+  
   padding: 4px 0;
   align-items: center;
 }
