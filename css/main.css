@@ -1115,3 +1115,97 @@ a.blog-item__read-more:hover {
   object-fit: cover;
   margin-bottom: 10rem;
 }
+
+.container-gallery {
+  background: url(http://colombo.vn/upload/20922/20180814/Table-1.jpg) no-repeat fixed center;
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  margin-bottom: 10rem;
+}
+
+.gl-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.gl-image {
+  width: 34rem;
+  margin: 10px;
+}
+
+.gl-image>img {
+  width: 100%;
+  border: .3rem solid var(--primary-color);
+  transition: .3s;
+}
+
+.gl-image>img:hover {
+  filter: graysacale(100%);
+  transform: scale(1.1);
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px var(--shadow-color);
+}
+
+#gallery {
+  position: fixed;
+  background-color: var(--shadow-color);
+  width: 100%;
+  height: 100%;
+  color:white;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: 1s;
+  pointer-events: none;
+}
+
+#gallery.show{
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+#gl-close {
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  font-size: 35px;
+}
+
+#gl-close:hover {
+  color: var(--primary-color);
+}
+
+.gl-control {
+  position: absolute;
+  font-size: 35px;
+  color: rga(255, 255, 255, 0.8);
+}
+
+.gl-control:hover {
+  color: var(--primary-color);
+}
+
+.gl-control#gl-prev {
+  left: 15px;
+  z-index: 1000;
+}
+
+.gl-control#gl-next {
+  right: 15px;
+  z-index: 1000;
+}
+
+.gl-control.hide{
+  display: none;
+}
