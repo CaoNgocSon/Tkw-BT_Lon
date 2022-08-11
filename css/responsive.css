@@ -3,6 +3,14 @@
     .hide-on-pc {
         display: none !important;
     }
+
+
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    .navbar__list a {
+        padding: 10px;
+    }
 }
 
 /* Mobile and Tablet */
@@ -40,7 +48,6 @@
         display: none;
     }
 
-
     .navbar__search {
         width: 60%;  
     }
@@ -68,7 +75,8 @@
 }
     
 
-/* Mobile */
+
+/* Mobile  */*/
 @media screen and (max-width: 739px) {
     .hide-on-mobile {
         display: none !important;

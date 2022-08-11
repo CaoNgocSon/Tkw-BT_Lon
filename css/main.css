@@ -1103,6 +1103,47 @@ a.blog-item__read-more:hover {
   width: 400px ;
   height: 500px;
 }
+/*--------------------------------------
+    Contact
+-------------------------------------- */
+.contact__info {
+    padding: 0 0 0 24px;
+}
+
+.contact__info h3{
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 22px;
+}
+
+.contact__info h4 {
+  font-size: 1.6rem;
+  font-weight: 550;
+  padding: 12px 15px;
+  line-height: 2.8rem;
+}
+
+.contact__info span {
+  color: var(--primary-color);
+  font-size: 2.4rem;
+  padding: 2px;
+}
+
+.contact__info input {
+  width: 100%;
+  padding: 14px 10px;
+  font-size: 1.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--gray-color);
+  margin: 0 14px;
+}
+
+.contact__info input:focus {
+  border-color: var(--primary-color);
+}
+
+
+
 
 /*--------------------------------------
     Gallery
@@ -1199,3 +1240,5 @@ a.blog-item__read-more:hover {
 .gl-control.hide{
   display: none;
 }
+
+
