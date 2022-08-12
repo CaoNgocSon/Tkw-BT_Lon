@@ -1106,20 +1106,18 @@ a.blog-item__read-more:hover {
 /*--------------------------------------
     Contact
 -------------------------------------- */
-.contact__info {
-    padding: 0 0 0 24px;
-}
-
 .contact__info h3{
     text-align: center;
-    font-size: 2.4rem;
-    margin: 22px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin: 16px;
+    font-family: "Charmonman", cursive;
 }
 
-.contact__info h4 {
+.contact__info label {
   font-size: 1.6rem;
   font-weight: 550;
-  padding: 12px 15px;
+  padding: 0 16px;
   line-height: 2.8rem;
 }
 
@@ -1131,20 +1129,94 @@ a.blog-item__read-more:hover {
 
 .contact__info input {
   width: 100%;
-  padding: 14px 10px;
+  padding: 12px 10px;
   font-size: 1.6rem;
   border-radius: 4px;
   border: 1px solid var(--gray-color);
   margin: 0 14px;
+  line-height: 2rem;
 }
 
-.contact__info input:focus {
-  border-color: var(--primary-color);
+input:hover {
+    border-color: var(--primary-color);
 }
 
 
 
+.form-groups {
+    margin-top: 12px;
+}
 
+.form-controls textarea {
+  width: 100%;
+  height: 320px;
+  padding: 10px 20px;
+  margin: 18px 0 0 14px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 8px;
+  font-size: 1.6rem;
+}
+
+textarea:hover {
+    border-color: var(--primary-color);
+}
+
+.form-actions input{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    border: none;
+    margin-top: 16px;
+    line-height: 2.7rem;
+    cursor: pointer;
+}
+
+.container-address {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: 1px solid var(--gray-color);
+    padding: 30px 0px;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.container-address i {
+  padding: 18px;
+  font-size: 2.4rem;
+  background-color: var(--gray-input-color);
+  border-radius: 49%;
+  /* border: 1px solid var(--black-color); */
+}
+
+
+.container-address i:hover {
+  background-color: var(--primary-color);
+}
+
+.container-address h3 {
+   font-size: 2.2rem;
+   margin: 8px 0;
+   line-height: 1.8rem;
+   margin-left: 14px;
+   color: var(--gray-color);
+   font-weight: 800;
+}
+
+.container-address span {
+  font-size: 1.6rem;
+  margin-left: 14px;
+}
+
+.map {
+  margin-top: 5rem;
+}
+
+.map iframe {
+  width: 100%;
+}
 /*--------------------------------------
     Gallery
 -------------------------------------- */
