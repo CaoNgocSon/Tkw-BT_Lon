@@ -125,12 +125,12 @@ $(document).ready(function () {
     const modalsContainer = document.querySelector('.js-modals-container')
    
 
-    // Hàm hiến thị modal province (thêm class open vào modal)
+    // Hàm hiến thị modal  (thêm class open vào modal)
     function showFrom() {
         modals.classList.add('open')
     }
 
-    // Hàm ấn modal province (gỡ bỏ class open của modal)
+    // Hàm ấn modal  (gỡ bỏ class open của modal)
     function hideFrom() {
         modals.classList.remove('open')
     }
