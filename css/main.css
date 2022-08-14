@@ -182,8 +182,6 @@
   display: block;
 }
 
-
-
 .category-item--active .category-item__link { 
   color: var(--primary-color);
 }
@@ -313,7 +311,6 @@
 }
 
 /*Home-product-item */
-
 .product {
   margin-bottom: 20px ;
 }
@@ -396,7 +393,6 @@ ul.produc-item-menu > li:hover,
 div.produc-item-order:hover {
     background-color: var(--secondary-color);
 }
-
 
 .product-item-name {
     color: var(--black-color);
@@ -560,6 +556,8 @@ div.produc-item-order:hover {
   border-color: transparent var(--primary-color) transparent var(--primary-color);
 }
 
+
+/* See more */
 .btn-see-more {
   text-align: center;
 }
@@ -772,10 +770,6 @@ Introduce
   background: var(--white-color);
 }
 
-.blog-left-sidebar {
-
-}
-
 .blog-item {
   overflow: hidden;
   margin-top: 20px;
@@ -798,8 +792,6 @@ Introduce
   display: block;
   transition: all ease 0.3s;
 }
-
-
 
 .blog-item__img span {
     position: absolute;
@@ -834,7 +826,6 @@ Introduce
 .blog-item__details-status > li >:hover {
     color: var(--primary-color);
 }
-
 
 a.blog-item__read-more {
     display: block;
@@ -1077,7 +1068,7 @@ a.blog-item__read-more:hover {
     Contact
 -------------------------------------- */
 .container-contact {
-  background: url(http://colombo.vn/upload/20922/20180814/Table-1.jpg) no-repeat  fixed center ;
+  background: url(https://kenh14cdn.com/thumb_w/660/2019/6/3/4-1559551546281832979526.jpg) no-repeat  fixed center ;
   background-size: 100%;
   width: 100%;
   height: 100vh;

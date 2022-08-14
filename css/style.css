@@ -261,7 +261,6 @@ a.active {
 }
 
 /* Navbar-on-mobile-tablet */
-
 .navbar__mobile-search {
   padding: 0 12px;
 }
@@ -369,8 +368,7 @@ label.navbar-btn > i:hover {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 16%);
   height: 475px;
-  animation: modalFadeIn ease .4s;
-  
+  animation: modalFadeIn ease .4s;  
 }
 
 .modal-header {
@@ -602,7 +600,6 @@ label.navbar-btn > i:hover {
 
 
 /* From */
-
 .container-from {
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
@@ -612,7 +609,6 @@ label.navbar-btn > i:hover {
   top: 0px;
   left: 0;
   z-index: 20;
-  animation: fadeIn linear 0.2s;
   display: none;
 }
 
@@ -629,7 +625,7 @@ label.navbar-btn > i:hover {
   text-align: center;
   border-radius: 10px;
   margin: 110px auto;
-
+  animation: modalFadeIn linear 0.3s;
 }
 
 .form .headingg {
