@@ -7,6 +7,7 @@ $(document).ready(function () {
     $(".blog-right-sidebar").addClass("wow animate__zoomIn animate__delay-0.6s")
     $(".gl-image:odd").addClass("wow animate__flipInY animate__delay-0.8s")
     $(".gl-image:even").addClass("wow animate__flipInX animate__delay-0.8s")
+    $(".contact").addClass("wow animate__zoomIn animate__delay-0.8s")
     wow = new WOW({
     boxClass: "wow", // default
     animateClass: "animate__animated", // default
