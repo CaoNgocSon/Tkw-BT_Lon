@@ -87,9 +87,6 @@ $(document).ready(function () {
     });
   });
 
-  //Add class Product-item
-
-
 
     //Modal-provice
     const chooseProvince = document.querySelector('.js-province')
@@ -121,33 +118,31 @@ $(document).ready(function () {
 
 
      // Modal-Form-Đăng-Ký
-    const from = document.querySelector('.js-from')
+    const from_pc = document.querySelector('.js-from')
+    const from_tablet_mobile = document.querySelector('.js-from-tablet-mobile') 
     const modals = document.querySelector('.js-modals')
     const modalsContainer = document.querySelector('.js-modals-container')
    
 
-    // Hàm hiến thị modal  (thêm class open vào modal)
+    // Hàm hiến thị modal (thêm class open vào modal)
     function showFrom() {
         modals.classList.add('open')
     }
 
-    // Hàm ấn modal  (gỡ bỏ class open của modal)
+    // Hàm ấn modal (gỡ bỏ class open của modal)
     function hideFrom() {
         modals.classList.remove('open')
     }
 
     //Nghe hành vi click
-    from.addEventListener('click', showFrom)
-            
+    from_pc.addEventListener('click', showFrom)
+    from_tablet_mobile.addEventListener('click', showFrom)  
+
     modals.addEventListener('click', hideFrom)
 
     modalsContainer.addEventListener('click', function(event) {
     event.stopPropagation()
     })
-
-
-      
-
 
 
     var moreBtn = document.querySelector(".js-see-more")
