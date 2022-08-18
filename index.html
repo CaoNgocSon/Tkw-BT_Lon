@@ -338,7 +338,7 @@
                             <div class="product">
                                 <div class="row">
                                     <div class="col l-3 m-4 c-6">
-                                        <a href="OrderPage/order.html" class="product-item">
+                                        <a href="OrderPage/order_1.html" class="product-item">
                                             <div class="product-item__img ">
                                                 <div class="product__item-sale-off">
                                                     <span class="product__item-sale-off-percen">10%</span>
@@ -1516,8 +1516,35 @@
         </div>
         <a id="gototop" href="#"><i class="fas fa-angle-up"></i></a>
       </footer>
-    </div>
 
+    </div>
+    
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+          window.fbAsyncInit = function () {
+              FB.init({
+                  xfbml: true,
+                  version: 'v8.0'
+              });
+          };
+  
+          (function (d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s);
+              js.id = id;
+              js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+              fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+      </script>
+  
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat" attribution=setup_tool page_id="105825651245887" theme_color="#f05123"
+          logged_in_greeting="Xin chào! Chúng tôi có thể giúp được gì cho bạn ?"
+          logged_out_greeting="Xin chào! Chúng tôi có thể giúp được gì cho bạn ?">
+      </div>
+  
     <!-- Box-province -->
     <div class="modal-popup js-modal">
         <!-- <div class="modal-overlay"> -->
@@ -1636,6 +1663,13 @@
      <!-- Sweet Alert -->
      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
      
+
+     <!-- All Flugins -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="js/baguetteBox.min.js"></script>
+     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
     <script src="js/main.js"></script>
 </body>
 </html>
