@@ -51,6 +51,8 @@
     .o-ratting {
         width: 100%;
     }
+
+ 
 }
 
 /* Tablet*/
@@ -83,6 +85,10 @@
         top: 20%;
         left: 20%;
       }
+
+    #o-cart {
+        width: 55%;
+    }
 }
     
 
@@ -176,6 +182,14 @@
         height: 40px;
         bottom: 120px;
         line-height: 44px;
+    }
+
+    #forminfo {
+        width: 98%;
+    }
+
+    #o-cart {
+        width: 80%;
     }
 }
 

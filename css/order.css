@@ -372,8 +372,8 @@ input.o-inputnum{
 
 #forminfo{
     position: relative;
-    width: 50%;
-    height: autp;
+    width: 60%;
+    height: auto;
     margin: auto auto;
     background: white;
 }
