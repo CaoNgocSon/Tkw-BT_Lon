@@ -152,7 +152,7 @@
                                 <li><a href="galllery.html">Ảnh</a></li>
                                 <li><a href="#">Video</a></li>
                                 <li><a href="#">Cài đặt</a></li>
-                                <li><a href="#">Đăng nhập</a></li>
+                                <li><a href="#" class="js-from-tablet-mobile">Đăng nhập</a></li>
                             </ul>
                         </nav>          
                     </div>
@@ -160,20 +160,7 @@
                 </nav>
             </div>
             
-            <ul class="header__sort-bar d-flex hide-on-pc ">
-                <li class="header__sort-item header__sort-item--active">
-                    <a href="" class="header__sort-link">Mới nhất</a>
-                </li>
-                <li class="header__sort-item ">
-                    <a href="" class="header__sort-link">Bán chạy</a>
-                </li>
-                <li class="header__sort-item">
-                    <a href="" class="header__sort-link">Đã lưu</a>
-                </li>
-                <li class="header__sort-item">
-                    <a href="" class="header__sort-link">Địa điểm</a>
-                </li>
-            </ul>
+           
         </header>
 
         <section>
@@ -186,7 +173,7 @@
 
         <section>
             <div class="grid wide">
-                <div class="row">
+                <div class="row wow animate__zoomIn animate__delay-0.8s">
                     <div class="col l-4">
                         <div class="content-inner">
                             <div class="sub-tittle">Nói chuyện với nhóm chúng tôi</div>
@@ -194,15 +181,90 @@
                                 <h2>Bất Kỳ Câu Hỏi Nào? Vui Lòng Liên Hệ</h2>
                             </div>
                             <div class="tittle-decs">
-                                <img src="https://pacificcross.com.vn/wp-content/uploads/2020/11/b2ap3_large_shutterstock_271251743.jpg" alt="">
+                                <img src="https://pacificcross.com.vn/wp-content/uploads/2020/11/b2ap3_large_shutterstock_271251743.jpg" alt="image">
                             </div>
                         </div>
+                    </div>
+                    <div class="col l-8 m-11 c-11 contact__info">
+                        <form action="">
+                           <h3>Nhập thông tin liên hệ</h3>
+                            <div class="row">
+                                <div class="col l-6 m-6 c-12 form-groups">
+                                    <label for="fullname">Tên đầy đủ (<span>*</span>)</label>
+                                    <input id="fullname" name="" type="text" placeholder="VD: Cao Ngọc Sơn"> 
+                                </div>
+                                <div class="col l-6 m-6 c-12 form-groups">
+                                    <label for="email">Nhập địa chỉ email (<span>*</span>)</label>
+                                    <input type="email" id="email" name="" placeholder="admin@gmail.com">
+                                </div>
+                                <div class="col l-6 m-6 c-12 form-groups">
+                                    <label for="phone">Nhập số điện thoại (<span>*</span>)</label>
+                                    <input id="phone" type="text" name="" placeholder="VD: 0799399..."> 
+                                </div>
+                                <div class="col l-6 m-6 c-12 form-groups">
+                                    <label for="date">Nhập ngày tháng năm (<span>*</span>)</label>
+                                    <input id="date" name="date" type="date" class="form-control">
+                                </div>
+                                <div class="col l-12 m-12 c-12 form-controls">
+                                    <textarea name="your-message" placeholder="Viết tin nhắn"></textarea>
+                                </div>
+                                <div class="col l-3 form-actions">
+                                    <input type="submit" value="Gửi tin nhắn">
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
 
-     
+        <section style="margin: 6rem 0;">
+            <div class="grid wide">
+                <div class="row wow animate__zoomIn animate__delay-0.9s">
+                    <div class="col l-4 m-12 c-12">
+                        <div class="container-address">
+                            <div>
+                                <span><i class="fa-solid fa-location-dot"></i></span>
+                            </div>
+                            <div>
+                                <h3>Địa chỉ</h3>
+                                <span>371 Nguyễn Kiệm, Gò Vấp</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="container-address">
+                            <div>
+                                <span><i class="fa-solid fa-phone"></i></span>
+                            </div>
+                            <div>
+                                <h3>Hotline</h3>
+                                <span>1900 9999</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="container-address">
+                            <div>
+                                <span><i class="fa-solid fa-at"></i></span>
+                            </div>
+                            <div>
+                                <h3>Email</h3>
+                                <span>Admin@Ou.edu.vn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+
+        <section>
+            <div class="map wow animate__zoomIn animate__delay-0.8s">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52723.18022491253!2d106.67590872297627!3d10.836254958059579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc9ef195798144b1f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLkhDTSAtIEPGoSBz4bufIDM!5e0!3m2!1svi!2s!4v1660310724809!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        
         <footer class="footer wow animate__fadeInUp">
             <div class="grid wide footer__content">
                 <div class="row">
@@ -310,7 +372,7 @@
                 </div>
             </div>
             <a id="gototop" href="#"><i class="fas fa-angle-up"></i></a>
-          </footer>  
+          </footer>
     </div>
       <!-- Box-province -->
       <div class="modal-popup js-modal">
