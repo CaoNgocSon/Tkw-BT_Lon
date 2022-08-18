@@ -290,7 +290,7 @@ input.o-inputnum{
     right: 0;
     width: 40%;
     max-height: 100%;
-    overflow-y: scroll;
+    overflow-y: hidden;
     z-index: 1;
     transform: scale(0) translateX(500px) translateX(500px);
     transition: 0.8s;
