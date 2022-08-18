@@ -232,7 +232,6 @@ table> tr{
 }
 #o-nme:focus{
     border:2px solid #f05123;
-    
 }
 
 #o-msg{
@@ -410,6 +409,19 @@ input.o-inputnum{
     padding: 10px 20px;
     border: 1px;
     color: white;
-    font-weight: bold;
-    
+    font-weight: bold;   
+}
+
+#forminfo input{
+    width:90%;
+    padding: 5px;
+    margin: 0 20px;
+    font-style: italic;
+    outline: none;
+    border-radius: 5px;
+    height:1.5rem;
+}
+
+#forminfo input:focus{
+    border:2px solid #f05123;
 }
