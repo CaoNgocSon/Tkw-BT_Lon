@@ -1131,8 +1131,6 @@ input:hover {
     border-color: var(--primary-color);
 }
 
-
-
 .form-groups {
     margin-top: 12px;
 }
@@ -1180,7 +1178,6 @@ textarea:hover {
   border-radius: 49%;
   /* border: 1px solid var(--black-color); */
 }
-
 
 .container-address i:hover {
   background-color: var(--primary-color);
