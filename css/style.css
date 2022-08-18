@@ -250,12 +250,7 @@ a.active {
   cursor: pointer;
 }
 
-.navbar__btn-group > .btn:first-child {
-  background-image: linear-gradient(90deg,#f60,#ff9f00);
-  color: #fff;
-}
-
-.navbar__btn-group > .btn:last-child {
+.navbar__btn-group > .btn {
   background-image: linear-gradient(90deg,#f60,#ff9f00);
   color: #fff;
 }
@@ -279,12 +274,13 @@ label.navbar-btn {
   cursor: pointer;
 }
 
-
+label.navbar__mobile-close > i,
 label.navbar-btn > i {
   transform: rotate(0);
   transition: transform 0.3s;
 }
 
+label.navbar__mobile-close > i:hover,
 label.navbar-btn > i:hover {
   transform: rotate(180deg);
 }
