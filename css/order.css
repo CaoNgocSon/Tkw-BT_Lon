@@ -3,14 +3,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-<<<<<<< HEAD
+
 .o-imgfoodmain{
     width:50%;
-=======
+}
 .o-flex{
     display:flex;
     flex-wrap: wrap;
->>>>>>> c16c6d4127d9cf6d9cd8c695605e5468405cb363
+
 }
 .o-imgfoodmain img{
     width: 100%;
@@ -126,14 +126,13 @@ body {
     height: 400px;
     overflow-y: scroll;
 }
-<<<<<<< HEAD
+
 
 .o-ratting {
     width: 20%;
-=======
+}
 .o-ratting{
     width: 17%;
->>>>>>> c16c6d4127d9cf6d9cd8c695605e5468405cb363
     margin: 10px;
 }
 
