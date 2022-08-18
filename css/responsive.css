@@ -3,8 +3,6 @@
     .hide-on-pc {
         display: none !important;
     }
-
-
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {
