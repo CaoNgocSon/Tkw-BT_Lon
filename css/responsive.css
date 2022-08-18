@@ -45,6 +45,14 @@
     .content-inner {
          display: none;
     }
+
+    .o-comments {
+        width: 100%;
+    }
+
+    .o-ratting {
+        width: 100%;
+    }
 }
 
 /* Tablet*/
