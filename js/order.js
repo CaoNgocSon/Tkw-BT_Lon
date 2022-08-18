@@ -51,12 +51,18 @@ newComment.addEventListener('click', function () {
     if (checkCMT == 0) {
         const tenCMT = document.getElementById('o-nme').value
         const ndCMT = document.getElementById('o-msg').value
+
+        var d= new Date()
+        let date = d.getDate()
+        let month = d.getMonth() + 1
+        let year = d.getFullYear()
+
         let h = `
     <div class="o-flex o-comment">
                         <div class="o-cmt-avatauser"><img src="/images/user4.jpeg" alt="User"></div>
                         <div class="o-cmt">
                             <div class="o-cmt-nameuser">${tenCMT}</div>
-                            <div class="o-cmt-date">13/08/2022</div>
+                            <div class="o-cmt-date">${date}/${month}/${year}</div>
                             <div class="o-cmt-text">${ndCMT}</div>
                             <div onclick="xoaBL()" style="opacity: 0.6; font-size:10px; cursor: pointer" ><i>Xóa bình luận</i></div>
                         </div>
