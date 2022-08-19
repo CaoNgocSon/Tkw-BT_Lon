@@ -1,6 +1,6 @@
 $(window).on('load',function(event) {
     // $('body').removeClass('preloading');
-    $('.loader').delay(500).fadeOut('fast');
+    $('.loadingBx').delay(500).fadeOut('fast');
 });
 //Add class anmate + wow js
 $(document).ready(function () {

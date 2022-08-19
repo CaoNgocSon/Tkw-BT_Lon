@@ -1,6 +1,5 @@
 $(window).on('load',function(event) {
-    // $('body').removeClass('preloading');
-    $('.loader').delay(500).fadeOut('fast');
+    $('.loadingBx').delay(500).fadeOut('fast');
 });
 
 const giamSL = document.getElementsByClassName('o-minus')
