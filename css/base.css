@@ -87,3 +87,39 @@ a {
   height: 100vh;
 }
 
+
+/* Loader */
+.loader {
+  width: 100%;
+  height: 100%;
+  background: var(--white-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000000;
+  display: block;
+  overflow: hidden;
+}
+
+.icon {
+  font-size: 80px;
+  color: var(--primary-color);
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+}
+
+.xoay {
+  animation: xoay 1.5s linear infinite;
+}
+
+@keyframes xoay {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}

@@ -449,3 +449,40 @@ input.o-inputnum{
     background: rgba(210, 105, 30, 1 ); 
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
+
+
+/* Loader */
+.loader {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000000;
+    display: block;
+    overflow: hidden;
+  }
+  
+  .icon {
+    font-size: 80px;
+    color: #f05123;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+  }
+  
+  .xoay {
+    animation: xoay 1.5s linear infinite;
+  }
+
+  @keyframes xoay {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }

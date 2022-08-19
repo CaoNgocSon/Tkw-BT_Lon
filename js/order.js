@@ -1,3 +1,8 @@
+$(window).on('load',function(event) {
+    // $('body').removeClass('preloading');
+    $('.loader').delay(500).fadeOut('fast');
+});
+
 const giamSL = document.getElementsByClassName('o-minus')
 const themSL = document.getElementsByClassName('o-plus')
 const htmlSoluong = document.getElementsByClassName('o-inputnum')
