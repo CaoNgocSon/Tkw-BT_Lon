@@ -1304,3 +1304,262 @@ textarea:hover {
 /*--------------------------------------
     News
 -------------------------------------- */
+/* MAIN */
+.n-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#n-main {
+  background-color: white;
+  font-family: 'Be Vietnam';
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+#n-mainleft {
+  width: 50%;
+  height: 100%;
+}
+
+#n-mainright {
+  width: 50%;
+  height: 100%;
+}
+
+.n-left {
+  position: relative;
+  padding: 20px 10px 20px 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.n-right1 {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.n-right2 {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.n-right3 {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.n-right4 {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+#n-main img {
+  width: 100%;
+  height: 100%;
+  filter:brightness(75%);
+}
+
+#n-main a {
+  z-index: 1;
+  position: absolute;
+  width: 95%;
+  height: 95%;
+}
+/* Thumb */
+.n-thump {
+  z-index: 1;
+  width: 95%;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+}
+
+.n-thump>* {
+  margin: 5px;
+}
+
+.n-thump a{
+  position:static !important;
+  font-size: 28px;
+  color: white;
+  
+}
+
+.n-thump p:first-child {
+  display: block;
+  font-style: italic;
+  margin: 10px;
+}
+
+.n-thump p:last-child {
+  margin-top: 0;
+}
+
+.n-thump p {
+  font-size: 18px;
+  display: none;
+  transition: 3s;
+}
+
+.n-thump:hover p {
+  display: block;
+  transform: translateY(5px);
+  transition: 1s;
+}
+/* ------------- */
+#n-mainright .n-thump a{
+  position:static !important;
+  font-size: 20px;
+  color: white;
+}
+
+/* CLONE */
+/* #n-clone *{
+  border: 2px solid black;
+} */
+
+#n-clone{
+  margin: 10px auto;
+  width: 1200px;
+}
+.n-cloneleft{
+  width: 60%;
+}
+.n-clonenav {
+  border-bottom: 1px solid var(--shadow-color);
+}
+.n-clonenav a{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 25px;
+  margin: 5px;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color)
+}
+
+.n-clonenav a.active{
+  color: white;
+  box-shadow: 4px 4px var(--shadow-color);
+  background-color: var(--primary-color);
+}
+
+.clonefoodimg{
+  height: 80px;
+  width: 80px;
+  padding:5px;
+  
+}
+.clonefood{
+  border-bottom: 1px solid var(--shadow-color);
+}
+.clonefoodimg>img{
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+}
+
+.clonedrinkimg{
+  height: 80px;
+  width: 80px;
+  padding:5px;
+  
+}
+.clonedrink{
+  border-bottom: 1px solid var(--shadow-color);
+}
+.clonedrinkimg>img{
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+}
+.n-cloneleft{
+  width: 60%;
+}
+.n-cloneleft> div{
+  background-color: white;
+  padding: 20px 10px 20px 20px;
+}
+
+#clonefoods{
+  display: none;
+
+}
+#clonefoods.active{
+  display: block;
+}
+#clonedrinks{
+  display: none;
+}
+#clonedrinks.active{
+  display: block;
+}
+
+/* Weather */
+.n-cloneright{
+  width: 40%;
+}
+.n-cloneright table{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.fa-sun{
+  animation: spin 5s linear infinite;
+}
+.n-cloneright>div{
+  background-color: var(--primary-color);
+}
+#wearther-icon,#weather-temp{
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+#weather-place{
+  font-size: 30px;
+  font-weight: bold;
+  color: white
+}
+
+#weather-tmain{
+  font-size: 15px;
+  color: white
+}
+
+.weather-title{
+  font-size: 10px;
+  color: white;
+}
+
+.weather-header{
+  color: white;
+  font-size: 20px;
+  padding: 15px
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
