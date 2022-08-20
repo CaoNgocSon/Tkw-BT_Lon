@@ -51,7 +51,7 @@ $(document).ready(function() {
         dots: true,
         responsive: [
         {
-            breakpoint: 1025,
+            breakpoint: 1025, // Độ rộng thiết bị
             settings: {
             slidesToShow: 3,
             },
@@ -60,8 +60,8 @@ $(document).ready(function() {
             breakpoint: 480,
             settings: {
             slidesToShow: 1,
-            arrows: false,
-            infinite: false,
+            arrows: false, // Ẩn nút kéo
+            infinite: false, // Kéo tới cuối không kéo dc nữa
             },
         },
         ],

@@ -4,7 +4,7 @@
  ------------------------------------- */
 .header {
     padding: 12px 0;
-     background-color: var(--white-color);   
+    background-color: var(--white-color);   
     box-shadow: 0 0 30px var(--shadow-color);
 }
 
@@ -20,30 +20,27 @@
   padding: 0;
 }
  
-  /* ------------------------------------
-    Navbar
-   ------------------------------------- */
-  .navbar {
-    display: flex;
-    align-items: center;
-    z-index: 10;
-    /* padding: 6px; */
-    justify-content: space-between;
+/* ------------------------------------
+  Navbar
+------------------------------------- */
+.navbar {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  /* padding: 6px; */
+  justify-content: space-between;
   
 }
   
 .navbar__logo img {
-
     width: 85%;
     height: 70px;
-    /* width: 80%; */
 }
   
 .navbar__list >  ul {
     display: flex;
     align-items: center;
 }
-
 
 .navbar__list a {
     display: block;
@@ -92,10 +89,8 @@ a.active {
 
 .navbar__search {
   background-color: var(--gray-input-color);
-  width: 35%;
   border-radius: 10px;
   margin-right: 20px;
-  
   padding: 4px 0;
   align-items: center;
 }
@@ -130,7 +125,6 @@ a.active {
   font-size: 1.6rem;
   padding: 12px;
   color: var(--gray-color);
-
 }
 
 .navbar__search-button { 
@@ -138,12 +132,11 @@ a.active {
   color: var(--gray-color);
   font-weight: 600;
   font-size: 1.6rem;
-   border: none;
-   cursor: pointer;
+  border: none;
+  cursor: pointer;
 }
 
 /* Navbar Cart */
-
 .navbar__cart {
   display: block;
   margin-top: 10px;
@@ -203,7 +196,6 @@ a.active {
 
 .navbar__cart-item-body {
   display: flex;
-
 }
 
 .navbar__cart-item-address {
@@ -236,19 +228,6 @@ a.active {
 }
 
 
-
-/* Button style */
-.btn { 
-  display: inline-block;
-  font-weight: 600;
-  color: var(--white-color);
-  text-align: center;
-  border: 2px solid var(--gray-input-color);
-  padding: 10px 8px;
-  font-size: 1.4rem;
-  border-radius: 12px;
-  cursor: pointer;
-}
 
 .navbar__btn-group > .btn {
   background-image: linear-gradient(90deg,#f60,#ff9f00);
