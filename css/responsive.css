@@ -189,5 +189,10 @@
     #o-cart {
         width: 80%;
     }
+
+    .loading {
+        top: 35%;
+        left: 42%;
+    }
 }
 

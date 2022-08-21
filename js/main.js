@@ -4,6 +4,7 @@ $(window).on('load',function(event) {
 });
 //Add class anmate + wow js
 $(document).ready(function () {
+    $(".category").addClass("wow animate__zoomIn animate__delay-0.9s")
     $(".product-item").addClass("wow animate__flipInY")
     $(".about-us__content").addClass("animate__delay-2s")
     $(".blog-item").addClass("wow animate__fadeInUp animate__delay-0.6s")
@@ -152,7 +153,7 @@ $(document).ready(function () {
     var moreSeeProduct = document.querySelectorAll(".product-more")
     var count = 0;
     moreBtn.addEventListener("click",function showMore() {
-        for(let i = 0;i < 4; i++)
+        for(let i = 0; i < 4; i++)
         moreSeeProduct[count++].style.display = "block";
         if(count == moreSeeProduct.length)
         moreBtn.style.display = "none";

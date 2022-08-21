@@ -3,12 +3,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.o-flex{
+.o-flex {
     display:flex;
     flex-wrap: wrap;
 }
 
-.o-infor{
+.o-infor {
     background:white;
 }
 

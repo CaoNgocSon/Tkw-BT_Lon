@@ -42,7 +42,6 @@
 
 .header__sort-item--active  .header__sort-link {
   color: var(--primary-color);
- 
 }
 
 .header__sort-link::before {
@@ -140,7 +139,6 @@
 /* Content */
 .app__container {
   background-color: #eeeeee;
-   top:100px;
 }
 
 .app__content {
@@ -161,7 +159,6 @@
   border-bottom: 1px solid var(--border-color);
   position: relative;
   text-align: center;
-  /* margin-left: 40px; */
 }
 
 .category__heading  > img {
