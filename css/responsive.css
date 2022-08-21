@@ -87,6 +87,7 @@
     #o-cart {
         width: 55%;
     }
+    
 }
     
 
@@ -190,6 +191,81 @@
         width: 80%;
     }
 
+    /* NEWS */
+    #n-main{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    #n-mainleft{
+        width: 100%;
+    }
+
+    #n-mainright{
+        width: 100%;
+    }
+
+    #n-mainright .n-thump a {
+        position: static !important;
+        font-size: 11px;
+        color: white;
+    }
+
+    .n-thump a {
+        position: static !important;
+        font-size: 20px;
+        color: white;
+    }
+
+    .n-thump a {
+    position: static !important;
+    font-size: 20px;
+    color: white;
+    }
+
+    .n-thump p{
+        font-size: 10px;
+    }
+
+    .n-thump p:first-child{
+        margin: 5px;
+    }
+
+    .n-left{
+        padding: 10px ;
+    }
+
+    .n-right> div{
+        padding-top: 0;
+    }
+
+    #n-clone{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .n-cloneleft{
+        width: 100%;
+        height: auto;
+    }
+
+    .n-cloneright{
+        width: 100%;
+        height: auto;
+    }
+    .n-clonenav a{
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+
+    .clonefoodimg{
+        height: 80px;
+        width: 80px;
+        padding:5px;  
+    }
+    
     .loading {
         top: 35%;
         left: 42%;
