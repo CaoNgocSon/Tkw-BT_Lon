@@ -1280,11 +1280,11 @@ textarea:hover {
 
 .n-flex {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
 #n-main {
+  display: flex;
   background-color: white;
   font-family: 'Be Vietnam';
   width: 1200px;
@@ -1298,6 +1298,8 @@ textarea:hover {
 }
 
 #n-mainright {
+  display: flex;
+  flex-wrap: wrap;
   width: 50%;
   height: 100%;
 }
@@ -1366,7 +1368,7 @@ textarea:hover {
   margin: 5px;
 }
 
-.n-thump a {
+.n-thump a{
   position:static !important;
   font-size: 28px;
   color: white;
@@ -1395,7 +1397,7 @@ textarea:hover {
   transition: 1s;
 }
 /* ------------- */
-#n-mainright .n-thump a {
+#n-mainright .n-thump a{
   position:static !important;
   font-size: 20px;
   color: white;
@@ -1406,13 +1408,18 @@ textarea:hover {
   border: 2px solid black;
 } */
 
-#n-clone{
+#n-clone {
   margin: 10px auto;
   width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
 .n-cloneleft {
   width: 60%;
 }
+
 .n-clonenav {
   border-bottom: 1px solid var(--shadow-color);
 }
@@ -1438,9 +1445,11 @@ textarea:hover {
   padding:5px;
   
 }
+
 .clonefood {
   border-bottom: 1px solid var(--shadow-color);
 }
+
 .clonefoodimg > img {
   width: 100%;
   height: 100%;
@@ -1450,12 +1459,13 @@ textarea:hover {
 .clonedrinkimg {
   height: 80px;
   width: 80px;
-  padding:5px;
-  
+  padding:5px; 
 }
-.clonedrink{
+
+.clonedrink {
   border-bottom: 1px solid var(--shadow-color);
 }
+
 .clonedrinkimg > img {
   width: 100%;
   height: 100%;
@@ -1464,22 +1474,24 @@ textarea:hover {
 .n-cloneleft{
   width: 60%;
 }
-.n-cloneleft> div {
+.n-cloneleft > div {
   background-color: white;
   padding: 20px 10px 20px 20px;
 }
 
-#clonefoods{
+#clonefoods {
   display: none;
 
 }
-#clonefoods.active{
+#clonefoods.active {
   display: block;
 }
-#clonedrinks{
+
+#clonedrinks {
   display: none;
 }
-#clonedrinks.active{
+
+#clonedrinks.active {
   display: block;
 }
 
@@ -1487,7 +1499,6 @@ textarea:hover {
 .n-cloneright {
   width: 40%;
 }
-
 .n-cloneright table {
   margin: 0 auto;
   text-align: center;
@@ -1498,18 +1509,18 @@ textarea:hover {
   animation: spin 5s linear infinite;
 }
 
-.n-cloneright>div {
+.n-cloneright > div {
   background-color: var(--primary-color);
 }
 
-#wearther-icon,#weather-temp {
+#wearther-icon,#weather-temp  {
   font-size: 55px;
   font-weight: bold;
   color: white;
   padding: 10px;
 }
 
-#weather-place{
+#weather-place {
   font-size: 30px;
   font-weight: bold;
   color: white
