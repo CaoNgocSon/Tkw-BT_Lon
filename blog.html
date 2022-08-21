@@ -485,8 +485,8 @@
           </footer>  
     </div>
     
-      <!-- Box-province -->
-      <div class="modal-popup js-modal">
+    <!-- Box-province -->
+    <div class="modal-popup js-modal">
         <!-- <div class="modal-overlay"> -->
             <div class="modal-content js-modal-container" style="width: 480px">
                 <div class="modal-header">
@@ -565,8 +565,8 @@
     </div>
     <!-- End-province -->
 
-         <!-- From Đăng nhập -->
-         <div class="container-from js-modals">
+    <!-- From Đăng nhập -->
+    <div class="container-from js-modals">
             <form action="" method="POST" class="form js-modals-container" id="form">
                 <h3 class="headingg">Đăng nhập</h3>
                 <div class="spacer"></div>
@@ -597,19 +597,49 @@
                     <a href="#" class="form-login-link">Login</a>
                 </p>
             </form>
-        </div>
-        <!-- End From Đăng Nhập -->
+    </div>
+    <!-- End From Đăng Nhập -->
 
-         <!-- Loader -->
+    <!-- Loader -->
      <div class="loadingBx">
         <div class="loading"></div>
     </div>
-    <script src="js/main.js"></script>
 
+         <!-- Messenger Plugin chat Code -->
+         <div id="fb-root"></div>
+
+         <!-- Your Plugin chat code -->
+         <div id="fb-customer-chat" class="fb-customerchat">
+         </div>
+     
+         <script>
+          var chatbox = document.getElementById('fb-customer-chat');
+          chatbox.setAttribute("page_id", "108145088682619");
+          chatbox.setAttribute("attribution", "biz_inbox");
+         </script>
+     
+         <!-- Your SDK code -->
+         <script>
+          window.fbAsyncInit = function() {
+              FB.init({
+              xfbml            : true,
+              version          : 'v14.0'
+              });
+          };
+      
+          (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+              fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+         </script>
+         
     <!-- Sweet Alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    
+    <script src="js/main.js"></script>
   </body>
 </html>
 
