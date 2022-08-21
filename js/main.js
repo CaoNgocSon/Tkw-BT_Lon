@@ -159,7 +159,6 @@ $(document).ready(function () {
     });
 
 
-
 // Search
 function searching() {
      var check = document.getElementById("search");

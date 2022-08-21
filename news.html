@@ -32,191 +32,581 @@
 </head>
 
 <body style="background-color: #f5f5f5;">
+    <div class="main">
+        <header class="header fixed-top">
+            <div class="grid wide">
+                <!-- navbar-on-pc -->
+                <nav class="navbar ">
+                    <label for="mobile-search-checkbox" class="navbar__mobile-search hide-on-pc hide-on-tablet">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                     </label>
 
-    <section>
-        <div id="n-main" class="n-flex">
-            <div id="n-mainleft">
-                <div class="n-left">
-                    <a href="https://tapchiamthuc.net/la-ten-la-mieng-bun-suon-khoi-khoi/" target="_blank"></a>
-                    <img src="/images/news_01.jpg" alt="/News01">
-                    <div class="n-thump">
-                        <p>20/08/2022</p>
-                        <h2 class="n-title"><a href="https://tapchiamthuc.net/la-ten-la-mieng-bun-suon-khoi-khoi/"
-                                target="_blank">Lạ tên, lạ miệng – Bún sườn khói Khởi</a></h2>
-                        <p>Bún thường được biết đến với những món ngon quen thuộc như bún chả, bún cá, bún riêu cua,…
-                        </p>
+                    <div class="navbar__logo l-1 m-2 c-3 ">
+                        <a href="#">
+                            <img src="images/logo-st-riviu.png" alt="Riviu-logo" />
+                        </a>
                     </div>
-                </div>
-            </div>
-            <div id="n-mainright" class="n-flex">
-                <div class="n-right1">
-                    <a href="https://tapchiamthuc.net/com-nam-mon-an-dan-gia-tro-thanh-dac-san-giua-long-ha-noi/"
-                        target="_blank"></a>
-                    <img src="/images/news_02.jpg" alt="News02">
-                    <div class="n-thump">
-                        <p>20/08/2022</p>
-                        <h2 class="n-title"><a
-                                href="https://tapchiamthuc.net/com-nam-mon-an-dan-gia-tro-thanh-dac-san-giua-long-ha-noi/"
-                                target="_blank">Cơm nắm – món ăn dân giã trở thành “đặc sản” giữa lòng Hà Nội</a></h2>
-                        <p>Hơn cả những ký ức của một thời gian khổ, cơm nắm trở thành “đặc ... </p>
-                    </div>
-                </div>
-                <div class="n-right2">
-                    <a href="https://tapchiamthuc.net/com-lang-vong-nong-nan-dua-huong-mua-sang-thu/"
-                        target="_blank"></a>
-                    <img src="/images/news_03.jpg" alt="News03">
-                    <div class="n-thump">
-                        <p>20/08/2022</p>
-                        <h2 class="n-title"><a
-                                href="https://tapchiamthuc.net/com-lang-vong-nong-nan-dua-huong-mua-sang-thu/"
-                                target="_blank">Cốm làng Vòng – nồng nàn đưa hương mùa sang Thu</a></h2>
-                        <p>Ghé Hà Nội mỗi độ thu về, chắc hẳn du khách sẽ khó quên được hương ... </p>
-                    </div>
-                </div>
-                <div class="n-right3">
-                    <a href="https://tapchiamthuc.net/bi-quyet-lam-bun-dau-mam-tom-ngon-chuan-ha-noi/"
-                        target="_blank"></a>
-                    <img src="/images/news_04.jpg" alt="News04">
-                    <div class="n-thump">
-                        <p>20/08/2022</p>
-                        <h2 class="n-title"><a href="https://tapchiamthuc.net/la-ten-la-mieng-bun-suon-khoi-khoi/"
-                                target="_blank">Bí quyết tạo nên món bún đậu mắm tôm ngon chuẩn Hà Nội</a></h2>
-                        <p>Một trong những món ăn ngon mà không kém phần tinh tế của ... </p>
-                    </div>
-                </div>
-                <div class="n-right4">
-                    <a href="https://tapchiamthuc.net/top-03-mon-ngon-ha-noi-nghe-ten-la-them/" target="_blank"></a>
-                    <img src="/images/news_05.jpg" alt="News05">
-                    <div class="n-thump">
-                        <p>20/08/2022</p>
-                        <h2 class="n-title"><a href="https://tapchiamthuc.net/la-ten-la-mieng-bun-suon-khoi-khoi/"
-                                target="_blank">Top 03 món ngon Hà Nội nghe tên là thèm</a></h2>
-                        <p>Hà Nội – thủ đô nghìn năm văn hiến, là điểm đến thu hút khách du lịch... </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div id="n-clone" class="n-flex">
-            <div class="n-cloneleft">
-                <div>
-                    <div class="n-clonenav">
-                        <ul class="n-flex">
-                            <li>
-                                <a id="nclonefoodbtn" href="#clonefoods" rel="1" class="active">Thức ăn</a>
-                            </li>
-                            <li>
-                                <a id="nclonedrinkbtn" href="#clonedrinks" rel="2">Đồ uống</a>
+                    
+                    <div class="navbar__list l-5 hide-on-mobile-tablet">
+                        <ul>
+                            <li><a href="index.html">Trang Chủ</a></li>
+                            <li><a href="Introduce.html">Giới Thiệu</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Liên hệ</a></li>
+                            <li class="navbar__sub-menu">
+                                <a  class="active" href="javascript:;">Khác
+                                    <i class="fa fa-caret-down"></i>
+                                </a>
+                                <ul class="navbar__sub-menu__content">
+                                    <li><a href="galllery.html">Ảnh</a></li>
+                                    <li><a href="news.html">Tin tức</a></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
-                    <div id="clonefoods" class="active">
-                        <div class="clonefood n-flex">
-                            <div class="clonefoodimg"><img src="/images/news_02.jpg" alt="News02"></div>
-                            <div>
-                                <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
-                                <h2>Cơm nắm – món ăn dân giã trở thành “đặc sản” giữa lòng Hà Nội</h2>
+
+                     <input type="checkbox" hidden id="mobile-search-checkbox" class="navbar__search-checkbox">  
+                    <div class="navbar__search d-flex l-4">               
+                        <div class="navbar__search-input-wrap">
+                            <span class="navbar__search-btn-icon fa fa-search"></span>
+                            <input type="text" class="navbar__search-input" placeholder="Tìm kiếm Riviu, địa điểm... "> 
+                            <div class="navbar__cart">
+                                <!-- <img src="images/about-us-img01.png" alt="" class="navbar__cart--no-cart-img"> -->
+                                <!-- <span class="navbar__cart-list-no-cart-msg">Chưa có lịch sử tìm kiếm</span> -->
+                        
+                                <h4 class="navbar__cart-heading">Đã xem gần đây</h4>
+                                <ul class="navbar__cart-list-item">
+                                    <!-- Cart-item -->
+                                    <li class="navbar__cart-item">
+                                        <img src="images/navbar-img1.jpg" alt="" class="navbar__car-img">
+                                        <div class="navbar__cart-item-info">
+                                            <div class="navbar__cart-item-head">
+                                                <h5 class="navbar__cart-item-name">Bếp Xuka - Đội Cấn</h5>
+                                            </div>
+                                            <div class="navbar__cart-item-body">
+                                                <span class="navbar__cart-item-address">
+                                                    805 Hậu Giang, P11, Quận 6, TP. HCM
+                                                </span>
+                                                <span class="navbar__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="navbar__cart-item">
+                                        <img src="images/navbar-img2.jpg" alt="" class="navbar__car-img">
+                                        <div class="navbar__cart-item-info">
+                                            <div class="navbar__cart-item-head">
+                                                <h5 class="navbar__cart-item-name">Gà Rán KFC - Trung Hoà</h5>
+                                            </div>
+                                            <div class="navbar__cart-item-body">
+                                                <span class="navbar__cart-item-address">
+                                                    123 Hoàng Sa, P10, Quận 3, TP. HCM
+                                                </span>
+                                                <span class="navbar__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="navbar__cart-item">
+                                        <img src="images/about-us-img01.png" alt="" class="navbar__car-img">
+                                        <div class="navbar__cart-item-info">
+                                            <div class="navbar__cart-item-head">
+                                                <h5 class="navbar__cart-item-name">Hotsun Rice & Chicken - Vạn Hạnh Mail</h5>
+                                            </div>
+                                            <div class="navbar__cart-item-body">
+                                                <span class="navbar__cart-item-address">
+                                                    805 Hậu Giang, P11, Quận 6, TP. HCM
+                                                </span>
+                                                <span class="navbar__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul> 
+                                <a href="#" class="navbar__cart-view-cart btn">Xem tất cả</a>
                             </div>
                         </div>
-                        <div class="clonefood n-flex">
-                            <div class="clonefoodimg">
-                                <img src="/images/news_03.jpg" alt="News02">
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
-                                <h2>Cốm làng Vòng – nồng nàn đưa hương mùa sang Thu</h2>
-                            </div>
-                        </div>
-                        <div class="clonefood n-flex">
-                            <div class="clonefoodimg">
-                                <img src="/images/news_04.jpg" alt="News04">
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
-                                <h2>Top 03 món ngon Hà Nội nghe tên là thèm</h2>
-                            </div>
-                        </div>
-                        <div class="clonefood n-flex">
-                            <div class="clonefoodimg">
-                                <img src="/images/news_05.jpg" alt="News05">
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
-                                <h2>Khám phá ẩm thực Kon Tum qua 4 món đặc sản độc đáo</h2>
-                            </div>
+                        <div class="navbar__search-select">
+                            <button class="navbar__search-button js-province">Hồ Chí Minh
+                            </button>
+                        </div> 
+                    </div>
+
+                    <div class="navbar__btn-group l-2-4 hide-on-mobile-tablet">
+                        <span href="" class="btn js-from">Đăng nhập</span>
+                        <!-- <span href="" class="btn">Đăng kí</span> -->
+                    </div>
+
+                    <!-- navbar-moble-tablet -->
+                    <div class="navbar__bars-btn hide-on-pc ">
+                        <label for="navbar-btn--input" class="navbar-btn">
+                            <i class="fas fa-bars fa-2x"></i>
+                        </label>
+                        <input type="checkbox" hidden name="btn" id="navbar-btn--input" class="navbar-input">
+                        <label for="navbar-btn--input" class="navbar__overlay"></label> 
+                        
+                        <nav class="navbar__mobile">
+                            <label for="navbar-btn--input" class="navbar__mobile-close">
+                                <i class="fas fa-times fa-2x"></i>
+                            </label> 
+                            <ul>
+                                <li><a  href="index.html">Trang Chủ</a></li>
+                                <li><a href="Introduce.html">Giới Thiệu</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Liên hệ</a></li>
+                                <li><a href="galllery.html">Ảnh</a></li>
+                                <li><a class="active" href="news.html">Tin tức</a></li>
+                                <li><a href="#">Cài đặt</a></li>
+                                <li><a href="#" class="js-from-tablet-mobile">Đăng nhập</a></li>
+                            </ul>
+                        </nav>          
+                    </div>
+                      <!-- End navbar-moble-tablet -->
+                </nav>
+            </div>
+            
+          
+        </header>
+        
+        <section>
+            <div class="container-bg container-news">
+                <div class="grid wide content">
+                    <h1 class="title wow animate__fadeInUp">Tin Tức</h1>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="n-main" class="d-flex" style="padding-top:30px;">
+                <div id="n-mainleft">
+                    <div class="n-left">
+                        <a href="https://tapchiamthuc.net/la-ten-la-mieng-bun-suon-khoi-khoi/" target="_blank"></a>
+                        <img src="/images/news_01.jpg" alt="/News01">
+                        <div class="n-thump">
+                            <p>20/08/2022</p>
+                            <h2 class="n-title"><a href="https://tapchiamthuc.net/la-ten-la-mieng-bun-suon-khoi-khoi/"
+                                    target="_blank">Lạ tên, lạ miệng – Bún sườn khói Khởi</a></h2>
+                            <p>Bún thường được biết đến với những món ngon quen thuộc như bún chả, bún cá, bún riêu cua,…
+                            </p>
                         </div>
                     </div>
-                    <div id="clonedrinks">
-                        <div class="clonedrink n-flex">
-                            <div class="clonedrinkimg"><img src="/images/news_06.jpg" alt="News05"></div>
-                            <div>
-                                <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
-                                <h2>Yerba Mate – Dòng trà độc đáo đậm chất Nam Mỹ</h2>
-                            </div>
+                </div>
+                <div id="n-mainright" class="n-flex">
+                    <div class="n-right1">
+                        <a href="https://tapchiamthuc.net/com-nam-mon-an-dan-gia-tro-thanh-dac-san-giua-long-ha-noi/"
+                            target="_blank"></a>
+                        <img src="/images/news_02.jpg" alt="News02">
+                        <div class="n-thump">
+                            <p>20/08/2022</p>
+                            <h2 class="n-title"><a
+                                    href="https://tapchiamthuc.net/com-nam-mon-an-dan-gia-tro-thanh-dac-san-giua-long-ha-noi/"
+                                    target="_blank">Cơm nắm – món ăn dân giã trở thành “đặc sản” giữa lòng Hà Nội</a></h2>
+                            <p>Hơn cả những ký ức của một thời gian khổ, cơm nắm trở thành “đặc ... </p>
                         </div>
-                        <div class="clonedrink n-flex">
-                            <div class="clonedrinkimg">
-                                <img src="/images/news_07.jpg" alt="News07">
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
-                                <h2>Lạ miệng với những món đồ uống từ trứng độc đáo</h2>
-                            </div>
+                    </div>
+                    <div class="n-right2">
+                        <a href="https://tapchiamthuc.net/com-lang-vong-nong-nan-dua-huong-mua-sang-thu/"
+                            target="_blank"></a>
+                        <img src="/images/news_03.jpg" alt="News03">
+                        <div class="n-thump">
+                            <p>20/08/2022</p>
+                            <h2 class="n-title"><a
+                                    href="https://tapchiamthuc.net/com-lang-vong-nong-nan-dua-huong-mua-sang-thu/"
+                                    target="_blank">Cốm làng Vòng – nồng nàn đưa hương mùa sang Thu</a></h2>
+                            <p>Ghé Hà Nội mỗi độ thu về, chắc hẳn du khách sẽ khó quên được hương ... </p>
                         </div>
-                        <div class="clonedrink n-flex">
-                            <div class="clonedrinkimg">
-                                <img src="/images/news_08.jpg" alt="News08">
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
-                                <h2>Nước ép táo: Cách làm và lợi ích</h2>
-                            </div>
+                    </div>
+                    <div class="n-right3">
+                        <a href="https://tapchiamthuc.net/bi-quyet-lam-bun-dau-mam-tom-ngon-chuan-ha-noi/"
+                            target="_blank"></a>
+                        <img src="/images/news_04.jpg" alt="News04">
+                        <div class="n-thump">
+                            <p>20/08/2022</p>
+                            <h2 class="n-title"><a href="https://tapchiamthuc.net/la-ten-la-mieng-bun-suon-khoi-khoi/"
+                                    target="_blank">Bí quyết tạo nên món bún đậu mắm tôm ngon chuẩn Hà Nội</a></h2>
+                            <p>Một trong những món ăn ngon mà không kém phần tinh tế của ... </p>
                         </div>
-                        <div class="clonedrink n-flex">
-                            <div class="clonedrinkimg">
-                                <img src="/images/news_09.jpg" alt="News09">
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
-                                <h2>Cơm nắm – món ăn dân giã trở thành “đặc sản” giữa lòng Hà Nội</h2>
-                            </div>
+                    </div>
+                    <div class="n-right4">
+                        <a href="https://tapchiamthuc.net/top-03-mon-ngon-ha-noi-nghe-ten-la-them/" target="_blank"></a>
+                        <img src="/images/news_05.jpg" alt="News05">
+                        <div class="n-thump">
+                            <p>20/08/2022</p>
+                            <h2 class="n-title"><a href="https://tapchiamthuc.net/la-ten-la-mieng-bun-suon-khoi-khoi/"
+                                    target="_blank">Top 03 món ngon Hà Nội nghe tên là thèm</a></h2>
+                            <p>Hà Nội – thủ đô nghìn năm văn hiến, là điểm đến thu hút khách du lịch... </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="n-cloneright">
-                <div>
+        </section>
+
+        <section>
+            <div id="n-clone" class="n-flex">
+                <div class="n-cloneleft">
                     <div>
-                        <h2 class="weather-header">Thời tiết</h2>
-                    </div>
-                    <div>
-                        <table>
-                            <tr>
-                                <td id="wearther-icon"><i class="fa-solid fa-sun"></i>
-                                </td>
-                                <td id="weather-temp">30<sup>℃</sup></td>
-                            </tr>
-                            <tr>
-                                <td id="weather-place" rowspan="2">HoChiMinh</td>
-                                <td class="weather-title"><i class="fa-solid fa-temperature-three-quarters"></i> 31º - 25º</td>
-                            </tr>
-                            <tr>
-                                
-                                <td class="weather-title"><i class="fa-solid fa-droplet"></i>85%</td>
-                            </tr>
-                            <tr>
-                                <td id="weather-tmain">Mây rải rác</td>
-                                <td class="weather-title"><i class="fa-solid fa-wind"></i> 2.57 km/h</td>
-                            </tr>
-                        </table>
+                        <div class="n-clonenav">
+                            <ul class="n-flex">
+                                <li>
+                                    <a id="nclonefoodbtn" href="#clonefoods" rel="1" class="active">Thức ăn</a>
+                                </li>
+                                <li>
+                                    <a id="nclonedrinkbtn" href="#clonedrinks" rel="2">Đồ uống</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="clonefoods" class="active">
+                            <div class="clonefood n-flex">
+                                <div class="clonefoodimg"><img src="/images/news_02.jpg" alt="News02"></div>
+                                <div>
+                                    <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
+                                    <h2>Cơm nắm – món ăn dân giã trở thành “đặc sản” giữa lòng Hà Nội</h2>
+                                </div>
+                            </div>
+                            <div class="clonefood n-flex">
+                                <div class="clonefoodimg">
+                                    <img src="/images/news_03.jpg" alt="News02">
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
+                                    <h2>Cốm làng Vòng – nồng nàn đưa hương mùa sang Thu</h2>
+                                </div>
+                            </div>
+                            <div class="clonefood n-flex">
+                                <div class="clonefoodimg">
+                                    <img src="/images/news_04.jpg" alt="News04">
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
+                                    <h2>Top 03 món ngon Hà Nội nghe tên là thèm</h2>
+                                </div>
+                            </div>
+                            <div class="clonefood n-flex">
+                                <div class="clonefoodimg">
+                                    <img src="/images/news_05.jpg" alt="News05">
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
+                                    <h2>Khám phá ẩm thực Kon Tum qua 4 món đặc sản độc đáo</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="clonedrinks">
+                            <div class="clonedrink n-flex">
+                                <div class="clonedrinkimg"><img src="/images/news_06.jpg" alt="News05"></div>
+                                <div>
+                                    <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
+                                    <h2>Yerba Mate – Dòng trà độc đáo đậm chất Nam Mỹ</h2>
+                                </div>
+                            </div>
+                            <div class="clonedrink n-flex">
+                                <div class="clonedrinkimg">
+                                    <img src="/images/news_07.jpg" alt="News07">
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
+                                    <h2>Lạ miệng với những món đồ uống từ trứng độc đáo</h2>
+                                </div>
+                            </div>
+                            <div class="clonedrink n-flex">
+                                <div class="clonedrinkimg">
+                                    <img src="/images/news_08.jpg" alt="News08">
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
+                                    <h2>Nước ép táo: Cách làm và lợi ích</h2>
+                                </div>
+                            </div>
+                            <div class="clonedrink n-flex">
+                                <div class="clonedrinkimg">
+                                    <img src="/images/news_09.jpg" alt="News09">
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-clock"></i><span>18/08/2022</span></p>
+                                    <h2>Cơm nắm – món ăn dân giã trở thành “đặc sản” giữa lòng Hà Nội</h2>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="n-cloneright">
+                    <div>
+                        <div>
+                            <h2 class="weather-header">Thời tiết</h2>
+                        </div>
+                        <div>
+                            <table>
+                                <tr>
+                                    <td id="wearther-icon"><i class="fa-solid fa-sun"></i>
+                                    </td>
+                                    <td id="weather-temp">30<sup>℃</sup></td>
+                                </tr>
+                                <tr>
+                                    <td id="weather-place" rowspan="2">HoChiMinh</td>
+                                    <td class="weather-title"><i class="fa-solid fa-temperature-three-quarters"></i> 31º - 25º</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td class="weather-title"><i class="fa-solid fa-droplet"></i>85%</td>
+                                </tr>
+                                <tr>
+                                    <td id="weather-tmain">Mây rải rác</td>
+                                    <td class="weather-title"><i class="fa-solid fa-wind"></i> 2.57 km/h</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer wow animate__fadeInUp">
+            <div class="grid wide footer__content">
+                <div class="row">
+                    <div class="col l-3 m-6 c-12">
+                        <h3 class="footer__heading">Thông tin liên hệ</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer-item-icon fa-solid fa-location-dot"></i>
+                                   Địa chỉ: 371 Nguyễn Kiệm
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer-item-icon fa-solid fa-phone"></i>
+                                   Hotline: 1900 9999
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer-item-icon fa-solid fa-envelope"></i>
+                                    email: admin@ou.edu.vn
+                                </a>
+                            </li> 
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Góp ý</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Hướng dẫn</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Quy định</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Bảo mật thông tin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <h3 class="footer__heading">Vào trên ứng dụng Riviu</h3>
+                        <div class="footer__download">
+                            <img src="images/QR_code.png" alt="" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="images/App store.png" alt="App store" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="images/google_play.png" alt="Google play" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <h3 class="footer__heading">Giấy phép</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">MXH 363/GP-BTTTT</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link"><img src="images/logoCCDV.png" alt="CCDV"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid wide" style="margin-top:30px;">
+                <div class="row">
+                    <ul class="footer-list--row">
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">
+                            <i class="footer-item-icon fab fa-facebook"></i></a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">
+                            <i class="footer-item-icon fab fa-instagram"></i></a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">
+                            <i class="footer-item-icon fab fa-youtube"></i></a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">
+                            <i class="footer-item-icon fab fa-google"></i></a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">
+                            <i class="footer-item-icon fab fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                        <p class="footer__text">
+                            &copy; Công Ty TNHH ST RIVIU <br>
+                            Design by NS - TT
+                </div>
+            </div>
+            <a id="gototop" href="#"><i class="fas fa-angle-up"></i></a>
+          </footer>
+    </div>
+
+        <!-- Box-province -->
+        <div class="modal-popup js-modal">
+            <!-- <div class="modal-overlay"> -->
+                <div class="modal-content js-modal-container" style="width: 480px">
+                    <div class="modal-header">
+                        <p style="text-align: center; font-size: 1.4rem;">Chọn khu vực</p>
+                        <p class="btn-right">
+                            <i class="fa-solid fa-xmark js-modal-close"></i>
+                        </p>
+                    </div>
+                    <div class="modal-info" style="height: 400px">
+                        <div class="province-content">
+                            <div class="search-province">
+                                <span class="search-btn-icon fa fa-search "></span>
+                                <input type="text"  placeholder="Nhập khu vực cần tìm" class="search-input"/>
+                            </div>
+                            <div class="list-province mt-2">
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                        Hồ Chí Minh
+                                    </div>
+                                </div>
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                        Hà Nội
+                                    </div>
+                                </div>
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                    Vũng Tàu
+                                    </div>
+                                </div>
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                    Nha Trang
+                                    </div>
+                                </div>
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                    Đà Lạt
+                                    </div>
+                                </div>
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                    Đồng Tháp
+                                    </div>
+                                </div>
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                   Biên Hòa
+                                    </div>
+                                </div>
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                   Phú Quốc
+                                    </div>
+                                </div>
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                  Lâm Đồng
+                                    </div>
+                                </div>
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                   Ninh Thuận
+                                    </div>
+                                </div>
+                                <div class="province-item">
+                                    <div class="title-item-hover">
+                                        Hải Phòng
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
             </div>
         </div>
+        <!-- End-province -->
+    
+        <!-- From Đăng nhập -->
+        <div class="container-from js-modals">
+            <form action="" method="POST" class="form js-modals-container" id="form">
+                <h3 class="headingg">Đăng nhập</h3>
+                <div class="spacer"></div>
+                
+                <button class="form-social">
+                    <i class="fab fa-google form-social-icon"></i>
+                    <span class="form-social-text">Đăng nhập với Google</span>
+                </button>
+                <button class="form-social" style="background-color:var(--primary-color);">
+                    <i class="fab fa-facebook form-social-icon"></i>
+                    <span class="form-social-text">Đăng nhập với Facebook</span>
+                </button>
+                <div class="spacer"></div>
+    
+                <div class="form-group">
+                <label for="email" class="form-label">Tên đăng nhập</label>
+                <input id="email" name="email" type="text" placeholder="VD: Sơn Thắng" class="form-control">
+                </div>
+        
+                <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">         
+                </div>
+                
+                <button class="form-submit">Đăng nhập</button>
+                <p class="form-already">
+                    <span>Bạn có sẵn sàng để tạo một tài khoản?</span>
+                    <a href="#" class="form-login-link">Login</a>
+                </p>
+            </form>
+        </div>
+        <!-- End From Đăng Nhập -->
+        
+        <!-- Loader -->
+         <div class="loadingBx">
+            <div class="loading"></div>
+        </div>
 
-        <script src="/js/news.js"></script>
-        <script src="/js/main.js"></script>
+        <script>
+            const nFoodbtn=document.getElementById('nclonefoodbtn')
+            const nDrinkbtn =document.getElementById('nclonedrinkbtn')
+            const cloneFood =document.getElementById('clonefoods')
+            const cloneDrink =document.getElementById('clonedrinks')
+
+            nFoodbtn.addEventListener('click',function (){
+                nDrinkbtn.classList.remove('active')
+                nFoodbtn.classList.add('active')
+                cloneDrink.classList.remove('active')
+                cloneFood.classList.add('active')
+            }) 
+            nDrinkbtn.addEventListener('click',function(){
+                nFoodbtn.classList.remove('active')
+                nDrinkbtn.classList.add('active')
+                cloneFood.classList.remove('active')
+                cloneDrink.classList.add('active')
+            })
+        </script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>

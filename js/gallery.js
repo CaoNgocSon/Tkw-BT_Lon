@@ -44,5 +44,3 @@ nextBtn.addEventListener('click', function () {
     gallery.classList.add('show')
   }
 })
-
-
