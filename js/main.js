@@ -147,7 +147,7 @@ $(document).ready(function () {
     event.stopPropagation()
     })
 
-
+    //See more product
     var moreBtn = document.querySelector(".js-see-more")
     var moreSeeProduct = document.querySelectorAll(".product-more")
     var count = 0;

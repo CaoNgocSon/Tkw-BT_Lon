@@ -62,7 +62,7 @@ newComment.addEventListener('click', function () {
         let year = d.getFullYear()
 
         let h = `
-    <div class="o-flex o-comment">
+                    <div class="o-flex o-comment">
                         <div class="o-cmt-avatauser"><img src="/images/user4.jpeg" alt="User"></div>
                         <div class="o-cmt">
                             <div class="o-cmt-nameuser">${tenCMT}</div>
@@ -71,7 +71,7 @@ newComment.addEventListener('click', function () {
                             <div onclick="xoaBL()" style="opacity: 0.6; font-size:10px; cursor: pointer" ><i>Xóa bình luận</i></div>
                         </div>
                     </div>
-    `
+                `
         let t = document.querySelector('.o-comment:first-child');
         t.insertAdjacentHTML("beforebegin", h);
         checkCMT = 1
