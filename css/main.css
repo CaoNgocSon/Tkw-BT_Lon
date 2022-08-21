@@ -1060,9 +1060,7 @@ a.blog-item__read-more:hover {
   width: 400px ;
   height: 500px;
 }
-/*--------------------------------------
-    Contact
--------------------------------------- */
+
 .contact__info h3{
     text-align: center;
     font-size: 2.6rem;
@@ -1364,11 +1362,11 @@ textarea:hover {
   bottom: 20px;
 }
 
-.n-thump>* {
+.n-thump > * {
   margin: 5px;
 }
 
-.n-thump a{
+.n-thump a {
   position:static !important;
   font-size: 28px;
   color: white;
@@ -1397,7 +1395,7 @@ textarea:hover {
   transition: 1s;
 }
 /* ------------- */
-#n-mainright .n-thump a{
+#n-mainright .n-thump a {
   position:static !important;
   font-size: 20px;
   color: white;
@@ -1412,13 +1410,13 @@ textarea:hover {
   margin: 10px auto;
   width: 1200px;
 }
-.n-cloneleft{
+.n-cloneleft {
   width: 60%;
 }
 .n-clonenav {
   border-bottom: 1px solid var(--shadow-color);
 }
-.n-clonenav a{
+.n-clonenav a {
   display: block;
   font-size: 20px;
   font-weight: bold;
@@ -1428,28 +1426,28 @@ textarea:hover {
   border: 2px solid var(--primary-color)
 }
 
-.n-clonenav a.active{
+.n-clonenav a.active {
   color: white;
   box-shadow: 4px 4px var(--shadow-color);
   background-color: var(--primary-color);
 }
 
-.clonefoodimg{
+.clonefoodimg {
   height: 80px;
   width: 80px;
   padding:5px;
   
 }
-.clonefood{
+.clonefood {
   border-bottom: 1px solid var(--shadow-color);
 }
-.clonefoodimg>img{
+.clonefoodimg > img {
   width: 100%;
   height: 100%;
   padding: 2px;
 }
 
-.clonedrinkimg{
+.clonedrinkimg {
   height: 80px;
   width: 80px;
   padding:5px;
@@ -1458,7 +1456,7 @@ textarea:hover {
 .clonedrink{
   border-bottom: 1px solid var(--shadow-color);
 }
-.clonedrinkimg>img{
+.clonedrinkimg > img {
   width: 100%;
   height: 100%;
   padding: 2px;
@@ -1466,7 +1464,7 @@ textarea:hover {
 .n-cloneleft{
   width: 60%;
 }
-.n-cloneleft> div{
+.n-cloneleft> div {
   background-color: white;
   padding: 20px 10px 20px 20px;
 }
@@ -1486,22 +1484,25 @@ textarea:hover {
 }
 
 /* Weather */
-.n-cloneright{
+.n-cloneright {
   width: 40%;
 }
-.n-cloneright table{
+
+.n-cloneright table {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 40px;
 }
 
-.fa-sun{
+.fa-sun {
   animation: spin 5s linear infinite;
 }
-.n-cloneright>div{
+
+.n-cloneright>div {
   background-color: var(--primary-color);
 }
-#wearther-icon,#weather-temp{
+
+#wearther-icon,#weather-temp {
   font-size: 55px;
   font-weight: bold;
   color: white;
@@ -1514,23 +1515,23 @@ textarea:hover {
   color: white
 }
 
-#weather-tmain{
+#weather-tmain {
   font-size: 15px;
   color: white
 }
 
-.weather-title{
+.weather-title {
   font-size: 10px;
   color: white;
 }
 
-.weather-header{
+.weather-header {
   color: white;
   font-size: 20px;
   padding: 15px
 }
 
-@keyframes spin{
+@keyframes spin {
   0%{
     transform: rotate(0deg);
   }
