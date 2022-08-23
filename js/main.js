@@ -28,7 +28,8 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) { //thực hiện lệnh điều kiện Khi lăn chuột xuống dưới hơn 100px
             $('#gototop').fadeIn(300); //Xuất hiện nút
-        } else {
+        } 
+        else {
             $('#gototop').fadeOut(300); //Ngược lại thì ẩn nút
         }
     });
@@ -48,7 +49,7 @@ $(document).ready(function() {
         draggable: false,
         prevArrow: `<button type='button' class='slick-prev slick-arrow'><ion-icon name="arrow-back-outline"></ion-icon></button>`,
         nextArrow: `<button type='button' class='slick-next slick-arrow'><ion-icon name="arrow-forward-outline"></ion-icon></button>`,
-        dots: true,
+        dots: true, 
         responsive: [
         {
             breakpoint: 1025, // Độ rộng thiết bị
