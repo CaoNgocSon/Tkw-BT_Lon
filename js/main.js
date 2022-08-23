@@ -147,7 +147,7 @@ $(document).ready(function () {
     event.stopPropagation()
     })
 
-    
+
     //See more product
     var moreBtn = document.querySelector(".js-see-more")
     var moreSeeProduct = document.querySelectorAll(".product-more")
@@ -169,7 +169,7 @@ function searching() {
             text: "Tính năng chưa được phát triển, vui lòng thử lại sau !",
             icon: "info",
         });
-     }
+    }
      else
         swal("Xảy ra lỗi !", "Bạn chưa nhập thông tin", "error");
 }
