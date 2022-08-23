@@ -1,5 +1,5 @@
 $(window).on('load',function(event) {
-    $('.loadingBx').delay(500).fadeOut('fast');
+    $('.loadingBx').delay(500).fadeOut(800);
 });
 //Add class anmate + wow js
 $(document).ready(function () {
@@ -69,7 +69,6 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 1000,
     });
-
 });
 
 //   Padding header when scroll
