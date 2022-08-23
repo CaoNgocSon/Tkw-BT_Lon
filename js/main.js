@@ -1,5 +1,4 @@
 $(window).on('load',function(event) {
-    // $('body').removeClass('preloading');
     $('.loadingBx').delay(500).fadeOut('fast');
 });
 //Add class anmate + wow js
@@ -148,6 +147,7 @@ $(document).ready(function () {
     event.stopPropagation()
     })
 
+    
     //See more product
     var moreBtn = document.querySelector(".js-see-more")
     var moreSeeProduct = document.querySelectorAll(".product-more")

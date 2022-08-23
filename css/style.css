@@ -29,7 +29,6 @@
   z-index: 10;
   /* padding: 6px; */
   justify-content: space-between;
-  
 }
   
 .navbar__logo img {
@@ -320,115 +319,6 @@ label.navbar-btn > i:hover {
 }
 
 
-
-/* Box Province */
-.modal-popup {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  z-index: 20;
-  background-color: rgba(0, 0, 0, 0.3);
-  animation: fadeIn linear 0.2s;
-  display: none;
-}
-
-.modal-popup.open {
-  display: flex;
-}
-
-.modal-content {
-  background-color:var(--white-color);
-  margin: 60px auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 16%);
-  height: 475px;
-  animation: modalFadeIn ease .4s;  
-}
-
-.modal-header {
-  font-weight: 600;
-  font-size: 3rem;
-  padding: 10px 15px;
-  position: relative;
-  border-bottom: 2px solid var(--gray-input-color);
-  background-color: var(--primary-color);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  margin-bottom: 12px;
-  line-height: 33px;
-}
-
-.modal-info {
-    overflow-y: scroll;
-    padding: 10px 15px;
-}
-
-.modal-header .btn-right {
-  display: inline-block;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  cursor: pointer;
-  font-size: 1.5rem ;
-}
-
-.search-province {
-  align-items: center;
-  cursor: pointer;
-  background-color:  #efeff1;
-  border-radius: 10px ;
-  width: 90%;
-  margin-left: 16px;
-  padding: 2px 0;
-}
-
-.search-btn-icon {
-  border: none;
-  padding: 10px 8px 8px 10px;
-  font-size: 1.8rem;
-  color: var(--gray-color);
-}
-
-.search-input {
-  background-color: #efeff1;
-  width: 90%;
-  border: none;
-  border-radius: 10px ;
-  padding: 8px 10px 10px 0px;
-  font-size: 1.6rem;
-  outline: none;
-}
-
-.province-item {
-  height: 56px;
-  line-height: 65px;
-  padding-left: 12px;
-}
-
-.title-item-hover {
-  color: var(--black-color);
-  cursor: pointer;
-  font-size: 1.6rem;
-  font-weight: 500;
-}
-
-.title-item-hover:hover  {
-  color:var(--primary-color)
-}
-
-@keyframes modalFadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(-140px);
-    }
-    to {  
-      opacity: 1;
-      transform: translateY(0);
-    }
-}
-
-
 /* ------------------------------------
   Footer
 ------------------------------------- */
@@ -573,8 +463,119 @@ label.navbar-btn > i:hover {
   overflow: hidden;
 }
 
+/* ------------------------------------
+    Box-province
+------------------------------------- */
+.modal-popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.3);
+  animation: fadeIn linear 0.2s;
+  display: none;
+}
 
-/* From */
+.modal-popup.open {
+  display: flex;
+}
+
+.modal-content {
+  background-color:var(--white-color);
+  margin: 60px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 16%);
+  height: 475px;
+  animation: modalFadeIn ease .4s;  
+}
+
+.modal-header {
+  font-weight: 600;
+  font-size: 3rem;
+  padding: 10px 15px;
+  position: relative;
+  border-bottom: 2px solid var(--gray-input-color);
+  background-color: var(--primary-color);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 12px;
+  line-height: 33px;
+}
+
+.modal-info {
+    overflow-y: scroll;
+    padding: 10px 15px;
+}
+
+.modal-header .btn-right {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 1.5rem ;
+}
+
+.search-province {
+  align-items: center;
+  cursor: pointer;
+  background-color:  #efeff1;
+  border-radius: 10px ;
+  width: 90%;
+  margin-left: 16px;
+  padding: 2px 0;
+}
+
+.search-btn-icon {
+  border: none;
+  padding: 10px 8px 8px 10px;
+  font-size: 1.8rem;
+  color: var(--gray-color);
+}
+
+.search-input {
+  background-color: #efeff1;
+  width: 90%;
+  border: none;
+  border-radius: 10px ;
+  padding: 8px 10px 10px 0px;
+  font-size: 1.6rem;
+  outline: none;
+}
+
+.province-item {
+  height: 56px;
+  line-height: 65px;
+  padding-left: 12px;
+}
+
+.title-item-hover {
+  color: var(--black-color);
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.title-item-hover:hover  {
+  color:var(--primary-color)
+}
+
+@keyframes modalFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-140px);
+    }
+    to {  
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+
+/* ------------------------------------
+    From
+------------------------------------- */
 .container-from {
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
@@ -590,7 +591,6 @@ label.navbar-btn > i:hover {
 .container-from.open {
   display: block ;
 }
-
 
 .form {
   background: var(--white-color);
