@@ -183,30 +183,30 @@
                         </div>
                     </div>
                     <div class="col l-8 m-11 c-11 contact__info">
-                        <form action="">
+                        <form action="javascript:void(0);">
                            <h3>Nhập thông tin liên hệ</h3>
                             <div class="row">
                                 <div class="col l-6 m-6 c-12 form-groups">
                                     <label for="fullname">Tên đầy đủ (<span>*</span>)</label>
-                                    <input id="fullname" name="" type="text" placeholder="VD: Cao Ngọc Sơn"> 
+                                    <input id="search" name="" type="text" placeholder="VD: Cao Ngọc Sơn"> 
                                 </div>
                                 <div class="col l-6 m-6 c-12 form-groups">
                                     <label for="email">Nhập địa chỉ email (<span>*</span>)</label>
-                                    <input type="email" id="email" name="" placeholder="admin@gmail.com">
+                                    <input type="email" id="search" name="" placeholder="admin@gmail.com">
                                 </div>
                                 <div class="col l-6 m-6 c-12 form-groups">
                                     <label for="phone">Nhập số điện thoại (<span>*</span>)</label>
-                                    <input id="phone" type="text" name="" placeholder="VD: 0799399..."> 
+                                    <input id="search" type="text" name="" placeholder="VD: 0799399..."> 
                                 </div>
                                 <div class="col l-6 m-6 c-12 form-groups">
                                     <label for="date">Nhập ngày tháng năm (<span>*</span>)</label>
-                                    <input id="date" name="date" type="date" class="form-control">
+                                    <input id="search" name="date" type="date" class="form-control">
                                 </div>
                                 <div class="col l-12 m-12 c-12 form-controls">
                                     <textarea name="your-message" placeholder="Viết tin nhắn"></textarea>
                                 </div>
                                 <div class="col l-3 form-actions">
-                                    <input type="submit" value="Gửi tin nhắn">
+                                    <input type="submit" id="search" value="Gửi tin nhắn" onclick="searching()">
                                 </div>
                             </div>
                         </form>
@@ -520,6 +520,10 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
         </script>    
+
+        <!-- Sweet Alert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
         <script src="js/main.js"></script>
   </body>
 </html>
