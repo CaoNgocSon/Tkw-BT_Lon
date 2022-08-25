@@ -1,5 +1,5 @@
 $(window).on('load',function(event) {
-    $('.loadingBx').delay(500).fadeOut(800);
+    $('.loadingBx').delay(500).fadeOut(300);
 });
 //Add class anmate + wow js
 $(document).ready(function () {
@@ -120,7 +120,7 @@ $(document).ready(function () {
 
 
 
-     // Modal-Form-Đăng-Ký
+     // Modal-Form-Đăng-Nhập
     const from_pc = document.querySelector('.js-from')
     const from_tablet_mobile = document.querySelector('.js-from-tablet-mobile') 
     const modals = document.querySelector('.js-modals')
