@@ -521,6 +521,20 @@ input.o-inputnum {
         transform: rotate(360deg)
     }
   }
+
+  #o-backpage> a{
+    position: fixed;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #f05123;
+    padding: 5px 10px;
+    border: 1px solid #f05123;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+  }
   
   @keyframes rotate2 {
     0% {
