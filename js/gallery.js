@@ -20,6 +20,7 @@ closeBtn.addEventListener('click', function () {
 })
 
 prevBtn.addEventListener('click', function () {
+  nextBtn.classList.remove('hide')
 if (current > 0){
   current--;
   if (current == 0){
@@ -33,6 +34,7 @@ if (current > 0){
 })
 
 nextBtn.addEventListener('click', function () {
+  prevBtn.classList.remove('hide')
   if (current < images.length - 1){
     current++;
     if (current == images.length - 1){
