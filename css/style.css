@@ -27,7 +27,6 @@
   display: flex;
   align-items: center;
   z-index: 10;
-  /* padding: 6px; */
   justify-content: space-between;
 }
   
@@ -48,7 +47,6 @@
     border-radius: 2rem;
     font-size: 1.6rem;
     color: var(--primary-color);
-    /* transition: all 0.3s; */
 }
 
 a.active {
@@ -264,7 +262,7 @@ label.navbar-btn > i:hover {
 }
 
 .navbar-input:checked ~ .navbar__overlay {
-   display: block;
+  display: block;
 }
 
 .navbar__overlay {
@@ -437,7 +435,6 @@ label.navbar-btn > i:hover {
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
-  /* display: none; */
 }
 
 /* SCROLLBAR  */
@@ -610,7 +607,6 @@ label.navbar-btn > i:hover {
   margin-bottom: 12px;
   padding: 6px;
   border-radius: 10px;
-  display: block;
   width: 100%;
   color: var(--white-color);
   font-size: 1.6rem ;
@@ -674,10 +670,9 @@ label.navbar-btn > i:hover {
 }
 
 .form-login-link {
-  color: #2979ff;
-  text-decoration: none;
+  color: var(--secondary-color);
+  text-decoration: underline;
 }
-
 
 .form-submit {
   outline: none;
